@@ -110,12 +110,14 @@ header{
 }
 
 .opciones li{
-    color: aliceblue;
     font-size: 140%;
+    cursor: pointer;
 }
-.opciones li:hover{
-    border-bottom: 1px black solid;
+.opciones a{
+    text-decoration: none;
+    color: aliceblue;
 }
+
 
 .cerrar{
     background-color: transparent;
@@ -519,8 +521,8 @@ footer{
         color: aliceblue;
         font-size: 110%;
     }
-    .opciones li:hover{
-        border-bottom: 1px black solid;
+    .opciones a:hover{
+        color: rgb(250, 179, 221);
     }
 
     .cerrar{
@@ -726,23 +728,26 @@ footer{
     }
 
     .sobremi{
-        height: 750px;
+        height: 800px;
     }
 
     .sobremi .titulo{
-        width: 40%;
-        font-size: 120%;
+        width: 30%;
+        font-size: 110%;
     }
 
     .sobremi .descripcion{
+        height: 50%;
         font-size: 155%;
     }
 
     /*proyectos*/
     .card{
+        padding: 2%;
         width: 75%;
     }
 
+    /*redes*/
     .barra{
         padding: 0;
     }
