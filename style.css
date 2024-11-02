@@ -780,3 +780,42 @@ footer{
         font-size: 165%;
     }
 }
+
+@media (min-width: 1441px){
+    header{
+        height: 200px;
+        font-size: 300%;
+    }
+    .opciones ul{
+        gap: 6%;
+    }
+
+    .presentacion{
+        height: 1500px;
+        font-size: 300%;
+    }
+
+    .sobremi{
+        height: 1800px;
+        font-size: 250%;
+    }
+
+    .tecnologia{
+        height: 1500px;
+        font-size: 250%;
+    }
+
+    .proyecto{
+        height: 1500px;
+        font-size: 250%;
+    }
+
+    .redes{
+        height: 700px;
+        font-size: 250%;
+    }
+
+    footer{
+        font-size: 250%;
+    }
+}
